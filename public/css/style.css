@@ -1,4 +1,17 @@
 @charset "UTF-8";
+
+.logo-container {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cacaca;
+    align-items: center;
+}
+.logo {
+	width: 40%;
+}
+
 body, .base--input,
 .base--STYLED input:not([type]), .base--color-input,
 .base--STYLED input[type="color"], .base--date-input,
